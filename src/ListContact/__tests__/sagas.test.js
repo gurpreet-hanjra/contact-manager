@@ -3,7 +3,7 @@ import { put, call } from 'redux-saga/effects';
 import { cloneableGenerator } from 'redux-saga/utils';
 import localStorage from '../../testUtils/mock';
 import { getContacts } from '../sagas';
-import LocalStorageManager from 'local-storage-manager';
+import LocalStorageManager from 'ls-manager';
 
 describe('Listcontact sagas', () => {
   let generator;
