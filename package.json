@@ -1,0 +1,36 @@
+{
+  "name": "contact-manager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "localstorage": "^1.0.1",
+    "ls-manager": "0.0.1",
+    "ramda": "^0.25.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-toastify": "^4.2.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.2",
+    "shortid": "^2.2.13",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "react-scripts": "1.1.4",
+    "redux-devtools-extension": "^2.13.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "jest.config.js",
+  "author": "Gurpreet Singh Hanjra",
+  "license": "ISC"
+}
